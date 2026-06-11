@@ -16,6 +16,7 @@ import parser
 
 load_dotenv()
 
+print("TOKEN:", os.getenv("BOT_TOKEN"))
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=config.BOT_TOKEN)
 dp = Dispatcher()
