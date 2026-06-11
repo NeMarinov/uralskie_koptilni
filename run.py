@@ -18,7 +18,7 @@ load_dotenv()
 
 print("TOKEN:", os.getenv("BOT_TOKEN"))
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token=config.BOT_TOKEN)
+bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
 
 user_selections = {}
