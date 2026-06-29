@@ -9,4 +9,4 @@ button1_text = "📦 Посмотреть каталог"
 button2_text = "❓ Вопросы по товару"
 button3_text = "💸 Рассчитать стоимость с допами"
 
-picture1 = "C:/Users/User/Downloads/коптильни.jpg"
+picture1 = "https://i.imgur.com/4WmHGs1.jpg"
