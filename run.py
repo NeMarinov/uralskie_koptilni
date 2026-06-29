@@ -136,7 +136,7 @@ class BACK:
         await callback.message.delete()
         await bot.send_photo(
             callback.message.chat.id,
-            photo=FSInputFile(config.picture1),
+            photo=config.picture1,
             reply_markup=KeyboardFactory.main_menu()
         )
 
