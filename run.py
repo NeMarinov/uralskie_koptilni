@@ -149,7 +149,7 @@ async def cmd_start(message: types.Message):
     await msg.delete()
     await bot.send_photo(
         message.chat.id,
-        photo=FSInputFile(config.picture1),
+        photo=config.picture1,
         caption="Вот что я могу",
         reply_markup=KeyboardFactory.main_menu()
     )
